@@ -1,0 +1,24 @@
+# Core web framework
+Flask==3.0.3
+
+# Deep learning and YOLOv5 dependencies
+torch>=1.9.0
+torchvision>=0.10.0
+
+# Image processing
+Pillow>=10.0.0
+numpy>=1.23.0
+pandas>=2.0.0
+
+# For YOLOv5 local loading (PyYAML used in YOLOv5 config)
+PyYAML>=6.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+tqdm>=4.66.0
+requests>=2.31.0
+
+# Optional (for webbrowser + local server utils)
+click>=8.1.3
+
+# If using torch.hub with local YOLOv5 repo
+gitpython>=3.1.40
